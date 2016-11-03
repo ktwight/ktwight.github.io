@@ -1,3 +1,4 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
 body {
 	background-color: #FBFBFB;
 	text-align: left;
@@ -41,14 +42,17 @@ a {
 	font-style: italic;
 	text-decoration: none;
 }
-
-.images {
-	max-width: 500px;
-	height: 300;
+#splash {
+    background: url(images/full-image-couple.jpg);
+    background-size: cover;
+    background-position: bottom;
 }
-
-/* resize images */
-.images img {
-	width: auto;
-	height: 100%;
+#splash div {
+    background: rgba(128, 0, 128, 0.5);
+    height: 80vh;
+    color: #fff;
+    font-size: 4em;
+    text-align: center;
+    font-family: helvetica;
+    padding: 4em 0 0;
 }
