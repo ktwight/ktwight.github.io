@@ -41,3 +41,14 @@ a {
 	font-style: italic;
 	text-decoration: none;
 }
+
+.images {
+	max-width: 500px;
+	height: 300;
+}
+
+/* resize images */
+.images img {
+	width: auto;
+	height: 100%;
+}
