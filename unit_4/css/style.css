@@ -1,7 +1,5 @@
-* { margin: 0; padding: 0; box-sizing: border-box; }
-
 @import url('https://fonts.googleapis.com/css?family=Lato|Righteous');
-
+* { margin: 0; padding: 0; box-sizing: border-box; }
 body {
 	background-color: #FBFBFB;
 	margin: 30px;
@@ -34,7 +32,7 @@ h3 {
 
 p {
 	font-family: 'Lato', sans-serif;
-	font: 18px;
+	font-size: 18px;
 	line-height: 1.5em;
 	margin: 2em;
 }
@@ -50,31 +48,40 @@ a {
 	text-decoration: none;
 }
 #splash {
-    background: url(images/couple.jpg);
+    background: url(../images/couple.jpg);
     background-size: cover;
     background-position: bottom;
 }
 #splash div {
-    background: rgba(100, 100, 25, 25);
-    height: 80px;
+    background: rgba(100, 100, 25, .75);
+    /* height: 80vh; */
     color: #fff;
     font-size: 4em;
     text-align: center;
     font-family: helvetica;
-    padding: 4em 0 0;
+    padding: 2em 0 2em;
+    /* width: 33.33%; */
+    /* float: right; */
 }
 
 #hand {
-	background: url(images/hand-off-your-tech.jpg);
+	background: url(../images/hand-off-your-tech.jpg);
 	background-size: cover;
 	background-position: bottom;
 }
 #hand div {
-	background: rgba(100, 100, 25, 25);
+	background: rgba(100, 100, 25, .25);
 	height: 80vh;
 	color: #fff;
 	font-size: 4em;
 	text-align: center;
 	font-family: helvetica;
 	padding: 4em 0 0;
+}
+.clearfix:after {
+	clear:both;
+	display:block;
+	height:0;
+	visibility:hidden;
+	content:"";
 }
